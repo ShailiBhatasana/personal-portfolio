@@ -1,0 +1,298 @@
+/* ==========================================================================
+   Design System Tokens
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Lay Grotesk - Trial';
+  src: url('Fonts/LayGrotesk-Trial-Regular.otf') format('opentype'),   
+       url('Fonts/LayGrotesk-Trial-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lay Grotesk - Trial';
+  src: url('Fonts/LayGrotesk-Trial-Medium.otf') format('opentype'),
+       url('Fonts/LayGrotesk-Trial-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lay Grotesk - Trial';
+  src: url('Fonts/LayGrotesk-Trial-Semibold.otf') format('opentype'),
+       url('Fonts/LayGrotesk-Trial-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lay Grotesk - Trial';
+  src: url('Fonts/LayGrotesk-Trial-Bold.otf') format('opentype'),
+       url('Fonts/LayGrotesk-Trial-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lay Grotesk - Trial';
+  src: url('Fonts/LayGrotesk-Trial-Black.otf') format('opentype'),
+       url('Fonts/LayGrotesk-Trial-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  /* Colors */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F4F4F5;
+  --color-gray-200: #E4E4E7;
+  --color-gray-300: #D4D4D8;
+  --color-gray-400: #9F9FA9;
+  --color-gray-500: #71717B;
+  --color-gray-600: #52525C;
+  --color-gray-700: #3F3F46;
+  --color-gray-800: #27272A;
+  --color-gray-900: #18181B;
+  --color-gray-950: #09090B;
+}
+
+/* --- Base (Mobile) Tokens --- */
+:root {
+  --system-typography-typeface: 'Lay Grotesk - Trial', sans-serif;
+  --system-typography-fonts-t1-size: 40px;
+  --system-typography-fonts-t1-line-height: 42px;
+  --system-typography-fonts-t2-size: 80px;
+  --system-typography-fonts-t2-line-height: 82px;
+  --system-typography-fonts-t3-size: 72px;
+  --system-typography-fonts-t3-line-height: 74px;
+  --system-typography-fonts-h1-size: 48px;
+  --system-typography-fonts-h1-line-height: 50px;
+  --system-typography-fonts-h2-size: 28px;
+  --system-typography-fonts-h2-line-height: 30px;
+  --system-typography-fonts-h3-size: 32px;
+  --system-typography-fonts-h3-line-height: 34px;
+  --system-typography-fonts-sh1-size: 30px;
+  --system-typography-fonts-sh1-line-height: 32px;
+  --system-typography-fonts-sh2-size: 28px;
+  --system-typography-fonts-sh2-line-height: 30px;
+  --system-typography-fonts-sh3-size: 24px;
+  --system-typography-fonts-sh3-line-height: 26px;
+  --system-typography-fonts-p1-size: 22px;
+  --system-typography-fonts-p1-line-height: 24px;
+  --system-typography-fonts-p2-size: 20px;
+  --system-typography-fonts-p2-line-height: 22px;
+  --system-typography-fonts-p3-size: 14px;
+  --system-typography-fonts-p3-line-height: 16px;
+  --system-typography-fonts-b1-size: 12px;
+  --system-typography-fonts-b1-line-height: 14px;
+  --system-typography-fonts-b2-size: 10px;
+  --system-typography-fonts-b2-line-height: 12px;
+  --system-typography-fonts-b3-size: 12px;
+  --system-typography-fonts-b3-line-height: 14px;
+  --system-typography-fonts-b4-size: 10px;
+  --system-typography-fonts-b4-line-height: 12px;
+  --system-typography-weight-regular: 400;
+  --system-typography-weight-medium: 500;
+  --system-typography-weight-semibold: 600;
+  --system-typography-weight-bold: 700;
+  --system-breakpoint-screen-width: 375px;
+  --system-breakpoint-column-width: 343px;
+  --system-breakpoint-stats-width: 112px;
+  --system-breakpoint-detail-width: 300px;
+  --system-breakpoint-detail-left-panel-width: 300px;
+  --system-breakpoint-detail-left-panel-height: 234px;
+  --system-margin-main: 16px;
+  --system-padding-0: 0px;
+  --system-padding-xxl: 60px;
+  --system-padding-l: 16px;
+  --system-spacing-0: 0px;
+  --system-spacing-sec-component: 18px;
+  --system-spacing-sec-spacing-regular: 16px;
+  --system-spacing-sec-spacing-with-button: 12px;
+  --system-spacing-between-section: 48px;
+  --system-interaction-grid-width: 75px;
+  --system-interaction-grid-height: 71px;
+}
+
+/* --- Tablet Breakpoint --- */
+@media (min-width: 768px) {
+  :root {
+    --system-typography-typeface: 'Lay Grotesk - Trial', sans-serif;
+    --system-typography-fonts-t1-size: 60px;
+    --system-typography-fonts-t1-line-height: 62px;
+    --system-typography-fonts-t2-size: 80px;
+    --system-typography-fonts-t2-line-height: 82px;
+    --system-typography-fonts-t3-size: 72px;
+    --system-typography-fonts-t3-line-height: 74px;
+    --system-typography-fonts-h1-size: 48px;
+    --system-typography-fonts-h1-line-height: 50px;
+    --system-typography-fonts-h2-size: 32px;
+    --system-typography-fonts-h2-line-height: 34px;
+    --system-typography-fonts-h3-size: 32px;
+    --system-typography-fonts-h3-line-height: 34px;
+    --system-typography-fonts-sh1-size: 30px;
+    --system-typography-fonts-sh1-line-height: 32px;
+    --system-typography-fonts-sh2-size: 28px;
+    --system-typography-fonts-sh2-line-height: 30px;
+    --system-typography-fonts-sh3-size: 24px;
+    --system-typography-fonts-sh3-line-height: 26px;
+    --system-typography-fonts-p1-size: 18px;
+    --system-typography-fonts-p1-line-height: 20px;
+    --system-typography-fonts-p2-size: 20px;
+    --system-typography-fonts-p2-line-height: 22px;
+    --system-typography-fonts-p3-size: 14px;
+    --system-typography-fonts-p3-line-height: 16px;
+    --system-typography-fonts-b1-size: 14px;
+    --system-typography-fonts-b1-line-height: 16px;
+    --system-typography-fonts-b2-size: 12px;
+    --system-typography-fonts-b2-line-height: 14px;
+    --system-typography-fonts-b3-size: 12px;
+    --system-typography-fonts-b3-line-height: 14px;
+    --system-typography-fonts-b4-size: 10px;
+    --system-typography-fonts-b4-line-height: 12px;
+    --system-typography-weight-regular: 400;
+    --system-typography-weight-medium: 500;
+    --system-typography-weight-semibold: 600;
+    --system-typography-weight-bold: 700;
+    --system-breakpoint-screen-width: 768px;
+    --system-breakpoint-column-width: 704px;
+    --system-breakpoint-stats-width: 234px;
+    --system-breakpoint-detail-width: 614px;
+    --system-breakpoint-detail-left-panel-width: 614px;
+    --system-breakpoint-detail-left-panel-height: 198px;
+    --system-margin-main: 32px;
+    --system-padding-0: 0px;
+    --system-padding-xxl: 80px;
+    --system-padding-l: 32px;
+    --system-spacing-0: 0px;
+    --system-spacing-sec-component: 20px;
+    --system-spacing-sec-spacing-regular: 32px;
+    --system-spacing-sec-spacing-with-button: 24px;
+    --system-spacing-between-section: 60px;
+    --system-interaction-grid-width: 76.80000305175781px;
+    --system-interaction-grid-height: 75.33000183105469px;
+  }
+}
+
+/* --- Desktop Breakpoint --- */
+@media (min-width: 1440px) {
+  :root {
+    --system-typography-typeface: 'Lay Grotesk - Trial', sans-serif;
+    --system-typography-fonts-t1-size: 84px;
+    --system-typography-fonts-t1-line-height: 86px;
+    --system-typography-fonts-t2-size: 80px;
+    --system-typography-fonts-t2-line-height: 82px;
+    --system-typography-fonts-t3-size: 72px;
+    --system-typography-fonts-t3-line-height: 74px;
+    --system-typography-fonts-h1-size: 48px;
+    --system-typography-fonts-h1-line-height: 50px;
+    --system-typography-fonts-h2-size: 40px;
+    --system-typography-fonts-h2-line-height: 42px;
+    --system-typography-fonts-h3-size: 32px;
+    --system-typography-fonts-h3-line-height: 34px;
+    --system-typography-fonts-sh1-size: 30px;
+    --system-typography-fonts-sh1-line-height: 32px;
+    --system-typography-fonts-sh2-size: 28px;
+    --system-typography-fonts-sh2-line-height: 30px;
+    --system-typography-fonts-sh3-size: 24px;
+    --system-typography-fonts-sh3-line-height: 26px;
+    --system-typography-fonts-p1-size: 22px;
+    --system-typography-fonts-p1-line-height: 24px;
+    --system-typography-fonts-p2-size: 20px;
+    --system-typography-fonts-p2-line-height: 22px;
+    --system-typography-fonts-p3-size: 18px;
+    --system-typography-fonts-p3-line-height: 20px;
+    --system-typography-fonts-b1-size: 16px;
+    --system-typography-fonts-b1-line-height: 18px;
+    --system-typography-fonts-b2-size: 14px;
+    --system-typography-fonts-b2-line-height: 16px;
+    --system-typography-fonts-b3-size: 12px;
+    --system-typography-fonts-b3-line-height: 14px;
+    --system-typography-fonts-b4-size: 10px;
+    --system-typography-fonts-b4-line-height: 12px;
+    --system-typography-weight-regular: 400;
+    --system-typography-weight-medium: 500;
+    --system-typography-weight-semibold: 600;
+    --system-typography-weight-bold: 700;
+    --system-breakpoint-screen-width: 1440px;
+    --system-breakpoint-column-width: 660px;
+    --system-breakpoint-stats-width: 268px;
+    --system-breakpoint-detail-width: 1152px;
+    --system-breakpoint-detail-left-panel-width: 428px;
+    --system-breakpoint-detail-left-panel-height: 810px;
+    --system-margin-main: 48px;
+    --system-padding-0: 0px;
+    --system-padding-xxl: 100px;
+    --system-padding-l: 48px;
+    --system-spacing-0: 0px;
+    --system-spacing-sec-component: 24px;
+    --system-spacing-sec-spacing-regular: 48px;
+    --system-spacing-sec-spacing-with-button: 40px;
+    --system-spacing-between-section: 80px;
+    --system-interaction-grid-width: 84.70999908447266px;
+    --system-interaction-grid-height: 83.70999908447266px;
+  }
+}
+
+/* --- Large Display Breakpoint --- */
+@media (min-width: 1920px) {
+  :root {
+    --system-typography-typeface: 'Lay Grotesk - Trial', sans-serif;
+    --system-typography-fonts-t1-size: 96px;
+    --system-typography-fonts-t1-line-height: 98px;
+    --system-typography-fonts-t2-size: 80px;
+    --system-typography-fonts-t2-line-height: 82px;
+    --system-typography-fonts-t3-size: 72px;
+    --system-typography-fonts-t3-line-height: 74px;
+    --system-typography-fonts-h1-size: 48px;
+    --system-typography-fonts-h1-line-height: 50px;
+    --system-typography-fonts-h2-size: 48px;
+    --system-typography-fonts-h2-line-height: 50px;
+    --system-typography-fonts-h3-size: 40px;
+    --system-typography-fonts-h3-line-height: 42px;
+    --system-typography-fonts-sh1-size: 30px;
+    --system-typography-fonts-sh1-line-height: 32px;
+    --system-typography-fonts-sh2-size: 28px;
+    --system-typography-fonts-sh2-line-height: 30px;
+    --system-typography-fonts-sh3-size: 24px;
+    --system-typography-fonts-sh3-line-height: 26px;
+    --system-typography-fonts-p1-size: 28px;
+    --system-typography-fonts-p1-line-height: 30px;
+    --system-typography-fonts-p2-size: 20px;
+    --system-typography-fonts-p2-line-height: 22px;
+    --system-typography-fonts-p3-size: 24px;
+    --system-typography-fonts-p3-line-height: 26px;
+    --system-typography-fonts-b1-size: 18px;
+    --system-typography-fonts-b1-line-height: 20px;
+    --system-typography-fonts-b2-size: 16px;
+    --system-typography-fonts-b2-line-height: 18px;
+    --system-typography-fonts-b3-size: 12px;
+    --system-typography-fonts-b3-line-height: 14px;
+    --system-typography-fonts-b4-size: 10px;
+    --system-typography-fonts-b4-line-height: 12px;
+    --system-typography-weight-regular: 400;
+    --system-typography-weight-medium: 500;
+    --system-typography-weight-semibold: 600;
+    --system-typography-weight-bold: 700;
+    --system-breakpoint-screen-width: 1920px;
+    --system-breakpoint-column-width: 870px;
+    --system-breakpoint-stats-width: 360px;
+    --system-breakpoint-detail-width: 1536px;
+    --system-breakpoint-detail-left-panel-width: 570px;
+    --system-breakpoint-detail-left-panel-height: 810px;
+    --system-margin-main: 60px;
+    --system-padding-0: 0px;
+    --system-padding-xxl: 120px;
+    --system-padding-l: 60px;
+    --system-spacing-0: 0px;
+    --system-spacing-sec-component: 60px;
+    --system-spacing-sec-spacing-regular: 60px;
+    --system-spacing-sec-spacing-with-button: 32px;
+    --system-spacing-between-section: 100px;
+    --system-interaction-grid-width: 112.94000244140625px;
+    --system-interaction-grid-height: 113.33000183105469px;
+  }
+}
